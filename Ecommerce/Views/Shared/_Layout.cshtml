@@ -1,0 +1,149 @@
+﻿@inject Ecommerce.Models.Database.EcommerceContext _context;
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ECommerce - online furniture store</title>
+    <meta name="description" content="Online furniture store."/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link rel="canonical" href="Replace_with_your_PAGE_URL" />
+        
+    <!-- Add site Favicon -->
+    <link rel="icon" href="assets/img/icon/cart.png" sizes="32x32" />
+    <link rel="icon" href="assets/img/icon/cart.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="assets/img/icon/apple-icon.png" />
+    <meta name="msapplication-TitleImage" content="assets/img/icon/cart.png" />
+
+          <!-- CSS 
+    ========================= -->
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/font.awesome.css">
+    <link rel="stylesheet" href="assets/css/icofont.min.css">
+    <link rel="stylesheet" href="assets/css/elegant-icons.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/nice-select.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/jquery-ui.min.css">
+
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
+    <!--modernizr min js here-->
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+    <!-- Structured Data  -->
+    <script type="application/ld+json">
+        {
+        "name": "Replace_with_your_site_title",
+        "url": "Replace_with_your_site_URL"
+        }
+    </script>
+	
+</head>
+
+<body>
+    <!--header area start-->
+    <header class="header_section mb-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main_header d-flex justify-content-between align-items-center">
+                        <div class="header_logo">
+                            <a class="sticky_none" href="\"><img src="assets/img/logo/logo.png" alt=""></a>
+                        </div>
+                        <!--main menu start-->
+                        <nav>
+                            <div class="main_menu d-block">
+                                <ul class="d-flex">
+                                    @{
+                                        var menus = _context.Menus.Where(row => row.Type == "Top").ToList();
+                                    }
+                                    @foreach (var menu_row in menus)
+                                    {
+                                        <li class="p-2"><a href="@menu_row.Link">@menu_row.MenuTitle</a></li>
+                                    }
+                                </ul>
+                            </div>
+                        </nav>
+                        <!--main menu end-->
+                        <div class="header__ridebar d-flex align-items-right">
+                            <div class="header_account">
+                                <ul class="d-flex">
+                                    <li class="header_search_btn"><a href="#"><img src="assets/img/icon/search.png"
+                                                alt=""></a></li>
+                                    <li class="shopping_cart"><a href="#"><img src="assets/img/icon/cart.png"
+                                                alt=""></a></li>
+                                    <li class="account_link_menu"><a href="#"><img src="assets/img/icon/person.png"
+                                                alt=""></a>
+                                        <ul class="dropdown_account_link">
+                                            <li><a href="">About Us</a></li>
+                                            <li><a href="">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- footer section start -->
+    @RenderBody()
+    <footer class="footer_section footer_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="main_footer d-flex justify-content-center align-items-center">
+                        <div class="footer_left">
+                            <div class="footer_logo">
+                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            </div>
+                            <div class="footer_social">
+                                <ul class="d-flex justify-content-center">
+                                    <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                    <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_bottom">
+                        <div class="copyright_right text-center">
+                            <p>&copy; 2025 All rights reserved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+    <!-- Js 
+    ========================= -->
+    <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="assets/js/vendor/popper.js"></script>
+    <script src="assets/js/vendor/bootstrap.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/jquery.scrollup.min.js"></script>
+    <script src="assets/js/images-loaded.min.js"></script>
+    <script src="assets/js/jquery.nice-select.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/mailchimp-ajax.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery-waypoints.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/ajax-mail.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
