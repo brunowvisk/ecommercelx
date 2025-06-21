@@ -59,6 +59,7 @@ wwwroot\assets\img\blog\related1.jpg.png
 wwwroot\assets\img\blog\related2.jpg
 wwwroot\assets\img\blog\related3.jpg
 wwwroot\assets\img\favicon.ico
+wwwroot\assets\img\icon\apple-icon.png
 wwwroot\assets\img\icon\blockcode.png
 wwwroot\assets\img\icon\blockcode2.png
 wwwroot\assets\img\icon\button-play.png
@@ -169,6 +170,7 @@ wwwroot\blog-details.html
 wwwroot\blog.html
 wwwroot\contact.html
 wwwroot\favicon.ico
+wwwroot\images\banners\1c0803ec-fe2d-4d65-9044-be995ab2ceca.png
 wwwroot\index-2.html
 wwwroot\index.html
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
@@ -295,7 +297,7 @@ C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\lib\jquery\dist\jquery.slim.js
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\lib\jquery\dist\jquery.slim.min.map
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\lib\jquery\LICENSE.txt
-C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\about.html
+C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\single-product.html
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\assets\css\animate.css
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\assets\css\elegant-icons.min.css
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\assets\css\font.awesome.css
@@ -333,12 +335,12 @@ C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\assets\js\vendor\modernizr-3.7.1.
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\assets\js\vendor\popper.js
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\assets\js\vendor\vendor.min.js
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\assets\js\wow.min.js
+C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\about.html
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\blog-details.html
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\blog.html
-C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\contact.html
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\index-2.html
-C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\index.html
+C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\contact.html
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\shop-collection.html
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\shop-fullwidth.html
+C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\index.html
 C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\shop-left-sidebar.html
-C:\projects\dotnet\ecommerce\Ecommerce\wwwroot\single-product.html

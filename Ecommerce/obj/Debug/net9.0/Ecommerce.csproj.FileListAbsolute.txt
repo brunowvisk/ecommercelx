@@ -92,7 +92,6 @@ C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\refint\Ecommerce.dll
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\Ecommerce.pdb
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\Ecommerce.genruntimeconfig.cache
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\ref\Ecommerce.dll
-C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\29k6mxk41k-xqztvqopvg.gz
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\ikfzgpcomb-15iykim2tb.gz
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\ffct9l5f4m-pll2rsur6z.gz
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\9b1fql13px-e8pv2hw18d.gz
@@ -129,15 +128,9 @@ C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\6rvgtaefkn-y3
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\kho7o8dyju-tyqo0iik0f.gz
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\esv0bfqhf0-x587p27b7j.gz
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\d7gofem0j8-dpbsi2bzec.gz
-C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\eardrnl0xj-at5992qwk9.gz
-C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\d153exdlcp-3um65qrd0t.gz
-C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\paft1zws66-u91hadazp0.gz
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\13q4tr5r35-9e58jc7g6i.gz
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\jqnpacvo7s-lzd1r2w46h.gz
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\3r2ec359c4-5wjslzynjd.gz
-C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\cejow8otyh-lz4usrxsnj.gz
-C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\cymiajmbcr-zh78k5s1k5.gz
-C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\zkttbzczs0-h6rahesnpy.gz
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\9tbd4b3qkg-gpoxruh536.gz
 C:\projects\dotnet\ecommerce\Ecommerce\bin\Debug\net9.0\Azure.Core.dll
 C:\projects\dotnet\ecommerce\Ecommerce\bin\Debug\net9.0\Azure.Identity.dll
@@ -382,3 +375,10 @@ C:\projects\dotnet\ecommerce\Ecommerce\bin\Debug\net9.0\dotnet-aspnet-codegenera
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\w0limnbnwb-2lgfkke7mt.gz
 C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\9vbb5g7n36-2lgfkke7mt.gz
+C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\cymiajmbcr-y1ts279u3q.gz
+C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\29k6mxk41k-1duz76nev0.gz
+C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\eardrnl0xj-ufzfecc0mc.gz
+C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\d153exdlcp-nabq7yiyg5.gz
+C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\paft1zws66-jxyxr4ttg8.gz
+C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\zkttbzczs0-uz21yis4ae.gz
+C:\projects\dotnet\ecommerce\Ecommerce\obj\Debug\net9.0\compressed\cejow8otyh-9k6kr6a7w5.gz
