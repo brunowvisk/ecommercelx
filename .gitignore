@@ -1,0 +1,26 @@
+# Visual Studio files
+.vs/
+*.user
+bin/
+obj/
+
+# Database files
+*.db
+*.db-journal
+
+# Zone.Identifier files (Windows/WSL)
+*:Zone.Identifier
+
+# Documentation
+CLAUDE.md
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
