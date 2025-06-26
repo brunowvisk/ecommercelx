@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "He2iilO6Ots=",
+  "dgSpecHash": "IW7z0OdcZGc=",
   "success": true,
-  "projectFilePath": "/home/brunowvisk/projetos/dotnet/ecommerce/admin_mvc/admin_mvc.csproj",
+  "projectFilePath": "\\\\wsl.localhost\\Ubuntu\\home\\brunowvisk\\projetos\\dotnet\\ecommerce\\admin_mvc\\admin_mvc.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
