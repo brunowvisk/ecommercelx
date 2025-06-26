@@ -168,6 +168,12 @@ namespace Ecommerce.Areas.Admin.Controllers
             var banner = await _context.Banners.FindAsync(id);
             if (banner != null)
             {
+                string org_fn;
+                org_fn = Directory.GetCurrentDirectory() + "\\wwwroot\\images\\banners\\" + banner.ImageName;
+                if (System.IO.File.Exists(org_fn))
+                {
+                    System.IO.File.Delete(org_fn);
+                }
                 _context.Banners.Remove(banner);
             }
 

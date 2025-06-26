@@ -54,38 +54,76 @@
                 <div class="col-12">
                     <div class="main_header d-flex justify-content-between align-items-center">
                         <div class="header_logo">
-                            <a class="sticky_none" href="\"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a class="sticky_none" href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
                         </div>
                         <!--main menu start-->
-                        <nav>
-                            <div class="main_menu d-block">
+                        <div class="main_menu d-none d-lg-block">
+                            <nav>
                                 <ul class="d-flex">
-                                    @{
-                                        var menus = _context.Menus.Where(row => row.Type == "Top").ToList();
-                                    }
-                                    @foreach (var menu_row in menus)
-                                    {
-                                        <li class="p-2"><a href="@menu_row.Link">@menu_row.MenuTitle</a></li>
-                                    }
+                                    <li>
+                                        <a class="active" href="index.html">Home</a>
+                                        <ul class="sub_menu">
+                                            <li><a href="index.html">Home 1</a></li>
+                                            <li><a href="index-2.html">Home 2</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">Pages</a>
+                                        <ul class="sub_menu">
+                                            <li><a href="about.html">About Us</a></li>
+                                            <li><a href="contact.html">Contact Us</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="shop-left-sidebar.html">Shop </a>
+                                        <ul class="sub_menu">
+                                            <li><a href="shop-left-sidebar.html">shop left sidebar</a></li>
+                                            <li><a href="shop-fullwidth.html">shop fullwidth</a></li>
+                                            <li><a href="shop-collection.html">shop collection</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="single-product.html">Product</a></li>
+                                    <li>
+                                        <a href="blog.html">blog</a>
+                                        <ul class="sub_menu">
+                                            <li><a href="blog.html">Blog Pages</a></li>
+                                            <li><a href="blog-details.html">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact Us</a></li>
                                 </ul>
-                            </div>
-                        </nav>
+                            </nav>
+                        </div>
                         <!--main menu end-->
-                        <div class="header__ridebar d-flex align-items-right">
+                        <div class="header__ridebar d-flex align-items-center">
                             <div class="header_account">
                                 <ul class="d-flex">
-                                    <li class="header_search_btn"><a href="#"><img src="assets/img/icon/search.png"
-                                                alt=""></a></li>
-                                    <li class="shopping_cart"><a href="#"><img src="assets/img/icon/cart.png"
-                                                alt=""></a></li>
-                                    <li class="account_link_menu"><a href="#"><img src="assets/img/icon/person.png"
-                                                alt=""></a>
+                                    <li class="header_search_btn">
+                                        <a href="#">
+                                            <img src="assets/img/icon/search.png"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                    <li class="shopping_cart">
+                                        <a href="#">
+                                            <img src="assets/img/icon/cart.png"
+                                                 alt="">
+                                        </a>
+                                    </li>
+                                    <li class="account_link_menu">
+                                        <a href="#">
+                                            <img src="assets/img/icon/person.png"
+                                                 alt="">
+                                        </a>
                                         <ul class="dropdown_account_link">
                                             <li><a href="">About Us</a></li>
                                             <li><a href="">Contact Us</a></li>
                                         </ul>
                                     </li>
                                 </ul>
+                            </div>
+                            <div class="canvas_open">
+                                <a href="javascript:void(0)"><i class="ion-navicon"></i></a>
                             </div>
                         </div>
                     </div>

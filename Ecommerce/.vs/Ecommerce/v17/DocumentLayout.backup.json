@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\areas\\admin\\controllers\\bannerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:areas\\admin\\controllers\\bannerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\areas\\admin\\views\\banners\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:areas\\admin\\views\\banners\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\wwwroot\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:wwwroot\\assets\\js\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\areas\\admin\\views\\banners\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -17,6 +25,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\areas\\admin\\views\\banners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:areas\\admin\\views\\banners\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\areas\\admin\\views\\banners\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:areas\\admin\\views\\banners\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\areas\\admin\\views\\banners\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:areas\\admin\\views\\banners\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\areas\\admin\\controllers\\bannerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:areas\\admin\\controllers\\bannerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|c:\\projects\\dotnet\\ecommerce\\ecommerce\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5460541D-891B-45A8-871E-F8C38A4849B1}|Ecommerce.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +54,85 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\wwwroot\\assets\\js\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\assets\\js\\main.js",
+              "ToolTip": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\wwwroot\\assets\\js\\main.js",
+              "RelativeToolTip": "wwwroot\\assets\\js\\main.js",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCAAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-06-24T01:41:54.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\wwwroot\\index.html",
+              "RelativeDocumentMoniker": "wwwroot\\index.html",
+              "ToolTip": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\wwwroot\\index.html",
+              "RelativeToolTip": "wwwroot\\index.html",
+              "ViewState": "AgIAAGgAAAAAAAAAAADgv/UAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-06-24T01:41:50.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAABcAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T18:53:19.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAYwJQAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T18:53:04.11Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T18:28:35.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Areas\\Admin\\Views\\Banners\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Banners\\Delete.cshtml",
+              "ToolTip": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Areas\\Admin\\Views\\Banners\\Delete.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Banners\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAABkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-21T17:51:56.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Areas\\Admin\\Views\\Banners\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Banners\\Index.cshtml",
@@ -43,39 +145,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Areas\\Admin\\Views\\Banners\\Edit.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Banners\\Edit.cshtml",
               "ToolTip": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Areas\\Admin\\Views\\Banners\\Edit.cshtml",
               "RelativeToolTip": "Areas\\Admin\\Views\\Banners\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-20T20:55:57.933Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Areas\\Admin\\Views\\Banners\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Banners\\Create.cshtml",
               "ToolTip": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Areas\\Admin\\Views\\Banners\\Create.cshtml",
               "RelativeToolTip": "Areas\\Admin\\Views\\Banners\\Create.cshtml",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAC4AAABIAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAADAAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-06-20T20:46:32.855Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "BannersController.cs",
               "DocumentMoniker": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Areas\\Admin\\Controllers\\BannersController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\BannersController.cs",
               "ToolTip": "C:\\projects\\dotnet\\ecommerce\\Ecommerce\\Areas\\Admin\\Controllers\\BannersController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\BannersController.cs",
-              "ViewState": "AgIAAGcAAAAAAAAAAAAkwHgAAAB4AAAAAAAAAA==",
+              "ViewState": "AgIAAJkAAAAAAAAAAAAswK8AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-20T16:16:16.1Z",
               "EditorCaption": ""

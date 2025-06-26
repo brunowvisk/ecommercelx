@@ -171,6 +171,8 @@ wwwroot\blog.html
 wwwroot\contact.html
 wwwroot\favicon.ico
 wwwroot\images\banners\1c0803ec-fe2d-4d65-9044-be995ab2ceca.png
+wwwroot\images\banners\6c26039d-b45a-4add-81a3-48f408806b12.png
+wwwroot\images\banners\6f363e73-5040-40d1-b1f3-c237b758d6f2.png
 wwwroot\index-2.html
 wwwroot\index.html
 wwwroot\lib\bootstrap\dist\css\bootstrap-grid.css
