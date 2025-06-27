@@ -1269,12 +1269,28 @@
       "PackagePath": "staticwebassets/assets/scss/_variabls.scss:Zone.Identifier"
     },
     {
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/scss/dart-sass/sass",
+      "PackagePath": "staticwebassets/assets/scss/dart-sass"
+    },
+    {
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/scss/dart-sass/src/LICENSE",
+      "PackagePath": "staticwebassets/assets/scss/dart-sass/src"
+    },
+    {
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/scss/dart-sass/src/dart",
+      "PackagePath": "staticwebassets/assets/scss/dart-sass/src"
+    },
+    {
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/scss/dart-sass/src/sass.snapshot",
+      "PackagePath": "staticwebassets/assets/scss/dart-sass/src/sass.snapshot"
+    },
+    {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/scss/section/_about.scss",
       "PackagePath": "staticwebassets/assets/scss/section/_about.scss"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/scss/section/_about.scss:Zone.Identifier",
-      "PackagePath": "staticwebassets/assets/scss/section/_about.scss:Zone.Identifier"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/scss/section/_account.scss",
+      "PackagePath": "staticwebassets/assets/scss/section/_account.scss"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/scss/section/_blog-details.scss",
@@ -1385,24 +1401,12 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/1c0803ec-fe2d-4d65-9044-be995ab2ceca.png",
-      "PackagePath": "staticwebassets/images/banners/1c0803ec-fe2d-4d65-9044-be995ab2ceca.png"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/88dbf03b-e11f-41b1-b27b-3ac9085a9a4e.jpg",
+      "PackagePath": "staticwebassets/images/banners/88dbf03b-e11f-41b1-b27b-3ac9085a9a4e.jpg"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/6c26039d-b45a-4add-81a3-48f408806b12.png",
-      "PackagePath": "staticwebassets/images/banners/6c26039d-b45a-4add-81a3-48f408806b12.png"
-    },
-    {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/6f363e73-5040-40d1-b1f3-c237b758d6f2.png",
-      "PackagePath": "staticwebassets/images/banners/6f363e73-5040-40d1-b1f3-c237b758d6f2.png"
-    },
-    {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/aad858ff-acc4-4007-abc3-769c44043243.png",
-      "PackagePath": "staticwebassets/images/banners/aad858ff-acc4-4007-abc3-769c44043243.png"
-    },
-    {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/b31bf838-575d-4b88-bbe5-026ac8ce09cb.jpg",
-      "PackagePath": "staticwebassets/images/banners/b31bf838-575d-4b88-bbe5-026ac8ce09cb.jpg"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/ea2363b4-7e0c-4d18-aec3-2db5f005ee6e.png",
+      "PackagePath": "staticwebassets/images/banners/ea2363b4-7e0c-4d18-aec3-2db5f005ee6e.png"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/index-2.html",

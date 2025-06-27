@@ -1,0 +1,81 @@
+@model Ecommerce.Models.Database.User
+
+@{
+    ViewData["Title"] = "My Account";
+    Layout = "_Layout";
+}
+
+<!-- My Account section start -->
+<section class="shipping_section mb-105">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section_title text-center mb-90">
+                    <h2>My Account</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="shipping_inner d-flex justify-content-between">
+                            <div class="single_shipping">
+                                <div class="shipping_title d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                                    <img src="assets/img/icon/person.png" alt="">
+                                    <h3>Full Name</h3>
+                                </div>
+                                <div class="shipping_desc wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">
+                                    <p>@Model.FullName</p>
+                                </div>
+                            </div>
+                            <div class="single_shipping">
+                                <div class="shipping_title d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                                    <img src="assets/img/icon/mark.png" alt="">
+                                    <h3>Email Address</h3>
+                                </div>
+                                <div class="shipping_desc wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">
+                                    <p>@Model.Email</p>
+                                </div>
+                            </div>
+                            <div class="single_shipping">
+                                <div class="shipping_title d-flex align-items-center wow fadeInUp" data-wow-delay="0.1s" data-wow-duration="1.1s">
+                                    <img src="assets/img/icon/check.png" alt="">
+                                    <h3>Account Type</h3>
+                                </div>
+                                <div class="shipping_desc wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1.2s">
+                                    <p>@(Model.IsAdmin ? "Administrator" : "Customer")</p>
+                                </div>
+                            </div>
+                </div>
+            </div>
+        </div>
+        
+        @if (Model.RegisterDate.HasValue)
+        {
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center mt-50 mb-30">
+                        <h4>Member Since: @Model.RegisterDate.Value.ToString("MMMM dd, yyyy")</h4>
+                    </div>
+                </div>
+            </div>
+        }
+        
+        <div class="row">
+            <div class="col-12">
+                <div class="text-center mt-50">
+                    @if (Model.IsAdmin)
+                    {
+                        <a asp-area="Admin" asp-controller="Home" asp-action="Index" class="btn btn-link me-30">
+                            <i class="fa fa-cog"></i> Admin Panel
+                        </a>
+                    }
+                    
+                    <a asp-action="Logout" class="btn btn-link">
+                        <i class="fa fa-sign-out"></i> Logout
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- My Account section end -->

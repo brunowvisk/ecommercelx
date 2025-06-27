@@ -43,7 +43,14 @@
                 @Html.DisplayFor(modelItem => item.SubTitle)
             </td>
             <td>
-                <img class="img-thumbnail" src="/images/banners/@item.ImageName" style="max-width:100px" />
+                @if (!string.IsNullOrEmpty(item.ImageName))
+                {
+                    <img class="img-thumbnail" src="~/images/banners/@item.ImageName" style="max-width:100px" />
+                }
+                else
+                {
+                    <span class="text-muted">No image</span>
+                }
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Priority)

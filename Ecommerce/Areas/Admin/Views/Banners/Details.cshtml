@@ -27,6 +27,11 @@
         </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.ImageName)
+            @if (!string.IsNullOrEmpty(Model.ImageName))
+            {
+                <br />
+                <img class="img-thumbnail" src="~/images/banners/@Model.ImageName" style="max-width:300px" />
+            }
         </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Priority)

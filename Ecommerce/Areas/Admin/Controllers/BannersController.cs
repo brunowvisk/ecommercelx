@@ -61,9 +61,15 @@ namespace Ecommerce.Areas.Admin.Controllers
                 if (ImageFile != null)
                 {
                     banner.ImageName = Guid.NewGuid().ToString() + System.IO.Path.GetExtension(ImageFile.FileName);
-                    string fn;
-                    fn = Directory.GetCurrentDirectory();
-                    string ImagePath = fn + "\\wwwroot\\images\\banners\\" + banner.ImageName;
+                    string bannerFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "banners");
+                    
+                    // Ensure directory exists
+                    if (!Directory.Exists(bannerFolder))
+                    {
+                        Directory.CreateDirectory(bannerFolder);
+                    }
+                    
+                    string ImagePath = Path.Combine(bannerFolder, banner.ImageName);
 
                     using var stream = new FileStream(ImagePath, FileMode.Create);
                     ImageFile.CopyTo(stream);
@@ -110,15 +116,26 @@ namespace Ecommerce.Areas.Admin.Controllers
                 {
                     if (ImageFile != null)
                     {
-                        string org_fn;
-                        org_fn = Directory.GetCurrentDirectory() + "\\wwwroot\\images\\banners\\" + banner.ImageName;
-                        if (System.IO.File.Exists(org_fn))
+                        string bannerFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "banners");
+                        
+                        // Delete old image if exists
+                        if (!string.IsNullOrEmpty(banner.ImageName))
                         {
-                            System.IO.File.Delete(org_fn);
+                            string org_fn = Path.Combine(bannerFolder, banner.ImageName);
+                            if (System.IO.File.Exists(org_fn))
+                            {
+                                System.IO.File.Delete(org_fn);
+                            }
                         }
-                        banner.ImageName = Guid.NewGuid() + Path.GetExtension(ImageFile.FileName);
-                        string ImagePath;
-                        ImagePath = Directory.GetCurrentDirectory() + "\\wwwroot\\images\\banners\\" + banner.ImageName;
+                        
+                        // Ensure directory exists
+                        if (!Directory.Exists(bannerFolder))
+                        {
+                            Directory.CreateDirectory(bannerFolder);
+                        }
+                        
+                        banner.ImageName = Guid.NewGuid().ToString() + Path.GetExtension(ImageFile.FileName);
+                        string ImagePath = Path.Combine(bannerFolder, banner.ImageName);
 
                         using var stream = new FileStream(ImagePath, FileMode.Create);
                         ImageFile.CopyTo(stream);
@@ -168,11 +185,13 @@ namespace Ecommerce.Areas.Admin.Controllers
             var banner = await _context.Banners.FindAsync(id);
             if (banner != null)
             {
-                string org_fn;
-                org_fn = Directory.GetCurrentDirectory() + "\\wwwroot\\images\\banners\\" + banner.ImageName;
-                if (System.IO.File.Exists(org_fn))
+                if (!string.IsNullOrEmpty(banner.ImageName))
                 {
-                    System.IO.File.Delete(org_fn);
+                    string org_fn = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "banners", banner.ImageName);
+                    if (System.IO.File.Exists(org_fn))
+                    {
+                        System.IO.File.Delete(org_fn);
+                    }
                 }
                 _context.Banners.Remove(banner);
             }
