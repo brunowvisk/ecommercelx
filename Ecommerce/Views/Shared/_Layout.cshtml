@@ -1,4 +1,4 @@
-﻿@inject Ecommerce.Models.Database.EcommerceContext _context;
+@inject Ecommerce.Models.Database.EcommerceContext _context;
 <!DOCTYPE html>
 <html lang="en" class="no-js">
 <head>
@@ -11,27 +11,27 @@
     <link rel="canonical" href="Replace_with_your_PAGE_URL" />
         
     <!-- Add site Favicon -->
-    <link rel="icon" href="~/assets/img/icon/cart.png" sizes="32x32" />
-    <link rel="icon" href="~/assets/img/icon/cart.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="~/assets/img/icon/apple-icon.png" />
-    <meta name="msapplication-TitleImage" content="assets/img/icon/cart.png" />
+    <link rel="icon" href="/assets/img/icon/cart.png" sizes="32x32" />
+    <link rel="icon" href="/assets/img/icon/cart.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="/assets/img/icon/apple-icon.png" />
+    <meta name="msapplication-TitleImage" content="/assets/img/icon/cart.png" />
 
           <!-- CSS 
     ========================= -->
-    <link rel="stylesheet" href="~/assets/css/vendor/bootstrap.min.css">
-    <link rel="stylesheet" href="~/assets/css/swiper-bundle.min.css">
-    <link rel="stylesheet" href="~/assets/css/slick.css">
-    <link rel="stylesheet" href="~/assets/css/ionicons.min.css">
-    <link rel="stylesheet" href="~/assets/css/font.awesome.css">
-    <link rel="stylesheet" href="~/assets/css/icofont.min.css">
-    <link rel="stylesheet" href="~/assets/css/elegant-icons.min.css">
-    <link rel="stylesheet" href="~/assets/css/animate.css">
-    <link rel="stylesheet" href="~/assets/css/nice-select.css">
-    <link rel="stylesheet" href="~/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="~/assets/css/jquery-ui.min.css">
+    <link rel="stylesheet" href="/assets/css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/assets/css/slick.css">
+    <link rel="stylesheet" href="/assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="/assets/css/font.awesome.css">
+    <link rel="stylesheet" href="/assets/css/icofont.min.css">
+    <link rel="stylesheet" href="/assets/css/elegant-icons.min.css">
+    <link rel="stylesheet" href="/assets/css/animate.css">
+    <link rel="stylesheet" href="/assets/css/nice-select.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/jquery-ui.min.css">
 
     <!-- Main Style CSS -->
-    <link rel="stylesheet" href="~/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     
     <!-- Custom CSS for Image Centering -->
     <style>
@@ -61,10 +61,43 @@
             flex: 1 !important;
             text-align: center !important;
         }
+        
+        /* Custom button colors for Login and Register pages - BeFurniture brown */
+        .btn-primary {
+            background-color: #AB6E35 !important;
+            border-color: #AB6E35 !important;
+        }
+        
+        .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+            background-color: #8B5A2B !important;
+            border-color: #8B5A2B !important;
+            box-shadow: 0 0 0 0.2rem rgba(171, 110, 53, 0.25) !important;
+        }
+        
+        .btn-success {
+            background-color: #AB6E35 !important;
+            border-color: #AB6E35 !important;
+        }
+        
+        .btn-success:hover, .btn-success:focus, .btn-success:active {
+            background-color: #8B5A2B !important;
+            border-color: #8B5A2B !important;
+            box-shadow: 0 0 0 0.2rem rgba(171, 110, 53, 0.25) !important;
+        }
+        
+        /* Link colors for consistency */
+        .text-decoration-none {
+            color: #AB6E35 !important;
+        }
+        
+        .text-decoration-none:hover {
+            color: #8B5A2B !important;
+            text-decoration: underline !important;
+        }
     </style>
     
     <!--modernizr min js here-->
-    <script src="~/assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    <script src="/assets/js/vendor/modernizr-3.7.1.min.js"></script>
 
     <!-- Structured Data  -->
     <script type="application/ld+json">
@@ -77,6 +110,51 @@
 </head>
 
 <body>
+    <!--offcanvas menu area start-->
+    <div class="body_overlay">
+    </div>
+    <div class="offcanvas_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                            <a href="javascript:void(0)"><i class="ion-android-close"></i></a>
+                        </div>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="active">
+                                    <a asp-controller="Home" asp-action="Index">Home</a>
+                                </li>
+                                <li>
+                                    <a asp-controller="Home" asp-action="About">About Us</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a asp-controller="Home" asp-action="Shop">Shop</a>
+                                    <ul class="sub-menu">
+                                        <li><a asp-controller="Home" asp-action="Shop">shop left sidebar</a></li>
+                                        <li><a asp-controller="Home" asp-action="Shop">shop fullwidth</a></li>
+                                        <li><a asp-controller="Home" asp-action="Shop">shop collection</a></li>
+                                    </ul>
+                                </li>
+                                <li><a asp-controller="Home" asp-action="Product">Product</a></li>
+                                <li class="menu-item-has-children">
+                                    <a asp-controller="Home" asp-action="Blog">blog</a>
+                                    <ul class="sub-menu">
+                                        <li><a asp-controller="Home" asp-action="Blog">blog</a></li>
+                                        <li><a asp-controller="Home" asp-action="BlogDetails">blog details</a></li>
+                                    </ul>
+                                </li>
+                                <li><a asp-controller="Home" asp-action="Contact">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--offcanvas menu area end-->
+
     <!--header area start-->
     <header class="header_section mb-30">
         <div class="container">
@@ -84,155 +162,76 @@
                 <div class="col-12">
                     <div class="main_header d-flex justify-content-between align-items-center">
                         <div class="header_logo">
-                            <a class="sticky_none" href="/"><img src="~/assets/img/logo/logo.png" alt=""></a>
+                            <a class="sticky_none" asp-controller="Home" asp-action="Index"><img src="/assets/img/logo/logo.png" alt=""></a>
                         </div>
-                        
-                        @if (ViewContext.RouteData.Values["controller"].ToString() != "Account")
-                        {
-                            <!--main menu start-->
-                            <div class="main_menu d-none d-lg-block">
-                                <nav>
-                                    <ul class="d-flex">
-                                        <li><a class="active" href="/">Home</a></li>
-                                        <li><a href="about.html">About</a></li>
-                                        <li>
-                                            <a href="shop-left-sidebar.html">Shop </a>
-                                            <ul class="sub_menu">
-                                                <li><a href="shop-left-sidebar.html">shop left sidebar</a></li>
-                                                <li><a href="shop-fullwidth.html">shop fullwidth</a></li>
-                                                <li><a href="shop-collection.html">shop collection</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="single-product.html">Product</a></li>
-                                        <li>
-                                            <a href="blog.html">blog</a>
-                                            <ul class="sub_menu">
-                                                <li><a href="blog.html">Blog Pages</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact Us</a></li>
-                                    </ul>
-                                </nav>
+                        <!--main menu start-->
+                        <div class="main_menu d-none d-lg-block">
+                            <nav>
+                                <ul class="d-flex">
+                                    <li><a class="active" asp-controller="Home" asp-action="Index">Home</a></li>
+                                    <li><a asp-controller="Home" asp-action="About">About Us</a></li>
+                                    <li><a asp-controller="Home" asp-action="Shop">Shop </a>
+                                        <ul class="sub_menu">
+                                            <li><a asp-controller="Home" asp-action="Shop">shop left sidebar</a></li>
+                                            <li><a asp-controller="Home" asp-action="Shop">shop fullwidth</a></li>
+                                            <li><a asp-controller="Home" asp-action="Shop">shop collection</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a asp-controller="Home" asp-action="Product">Product</a></li>
+                                    <li><a asp-controller="Home" asp-action="Blog">blog</a>
+                                        <ul class="sub_menu">
+                                            <li><a asp-controller="Home" asp-action="Blog">Blog Pages</a></li>
+                                            <li><a asp-controller="Home" asp-action="BlogDetails">Blog Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a asp-controller="Home" asp-action="Contact">Contact Us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <!--main menu end-->
+                        <div class="header__ridebar d-flex align-items-center">
+                            <div class="header_account">
+                                <ul class="d-flex">
+                                    <li class="header_search_btn">
+                                        <a href="#">
+                                            <img src="/assets/img/icon/search.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="shopping_cart">
+                                        <a href="#">
+                                            <img src="/assets/img/icon/cart.png" alt="">
+                                        </a>
+                                    </li>
+                                    <li class="account_link_menu">
+                                        <a href="#">
+                                            <img src="/assets/img/icon/person.png" alt="">
+                                        </a>
+                                        <ul class="dropdown_account_link">
+                                            @if (Context.Session.GetString("UserId") != null)
+                                            {
+                                                <li><a asp-controller="Account" asp-action="MyAccount">My Account</a></li>
+                                                <li><a asp-controller="Account" asp-action="Logout">Logout</a></li>
+                                            }
+                                            else
+                                            {
+                                                <li><a asp-controller="Account" asp-action="Login">Login</a></li>
+                                                <li><a asp-controller="Account" asp-action="Register">Register</a></li>
+                                            }
+                                        </ul>
+                                    </li>
+                                </ul>
                             </div>
-                            <!--main menu end-->
-                            <div class="header__ridebar d-flex align-items-center">
-                                <div class="header_account">
-                                    <ul class="d-flex">
-                                        <li class="header_search_btn">
-                                            <a href="#">
-                                                <img src="~/assets/img/icon/search.png" alt="">
-                                            </a>
-                                        </li>
-                                        <li class="shopping_cart">
-                                            <a href="#">
-                                                <img src="~/assets/img/icon/cart.png" alt="">
-                                            </a>
-                                        </li>
-                                        <li class="account_link_menu">
-                                            <a href="#">
-                                                <img src="~/assets/img/icon/person.png" alt="">
-                                            </a>
-                                            <ul class="dropdown_account_link">
-                                                @if (Context.Session.GetString("UserId") != null)
-                                                {
-                                                    <li><a asp-controller="Account" asp-action="MyAccount">My Account</a></li>
-                                                    <li><a asp-controller="Account" asp-action="Logout">Logout</a></li>
-                                                }
-                                                else
-                                                {
-                                                    <li><a asp-controller="Account" asp-action="Login">Login</a></li>
-                                                    <li><a asp-controller="Account" asp-action="Register">Register</a></li>
-                                                }
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <div class="canvas_open">
-                                    <a href="javascript:void(0)"><i class="ion-navicon"></i></a>
-                                </div>
+                            <div class="canvas_open">
+                                <a href="javascript:void(0)"><i class="ion-navicon"></i></a>
                             </div>
-                        }
-                        else
-                        {
-                            <!--simple header for Account pages-->
-                            <div class="header__ridebar d-flex align-items-center">
-                                <div class="header_account">
-                                    <ul class="d-flex">
-                                        <li class="account_link_menu">
-                                            <a href="#">
-                                                <img src="~/assets/img/icon/person.png" alt="">
-                                            </a>
-                                            <ul class="dropdown_account_link">
-                                                @if (Context.Session.GetString("UserId") != null)
-                                                {
-                                                    <li><a asp-controller="Account" asp-action="MyAccount">My Account</a></li>
-                                                    <li><a asp-controller="Account" asp-action="Logout">Logout</a></li>
-                                                }
-                                                else
-                                                {
-                                                    <li><a asp-controller="Account" asp-action="Register">Register</a></li>
-                                                }
-                                            </ul>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        }
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </header>
-    @if (ViewContext.RouteData.Values["controller"].ToString() != "Account")
-    {
-        <!--offcanvas menu area start-->
-        <div class="body_overlay">
-        </div>
-        <div class="offcanvas_menu">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="offcanvas_menu_wrapper">
-                            <div class="canvas_close">
-                                <a href="javascript:void(0)"><i class="ion-android-close"></i></a>
-                            </div>
-                            <div id="menu" class="text-left ">
-                                <ul class="offcanvas_main_menu">
-                                    <li class="active">
-                                        <a href="/">Home</a>
-                                    </li>
-                                    <li>
-                                        <a href="about.html">About</a>
-                                    </li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">Shop</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="shop-left-sidebar.html">shop left sidebar</a></li>
-                                            <li><a href="shop-fullwidth.html">shop fullwidth</a></li>
-                                            <li><a href="shop-collection.html">shop collection</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="single-product.html">Product</a></li>
-                                    <li class="menu-item-has-children">
-                                        <a href="#">blog</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="blog.html">blog</a></li>
-                                            <li><a href="blog-details.html">blog details</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="menu-item-has-children"><a href="contact.html">Contact Us</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--offcanvas menu area end-->
-    }
 
-    @if (ViewContext.RouteData.Values["controller"].ToString() != "Account")
+    @if (ViewContext.RouteData.Values["controller"]?.ToString() != "Account")
     {
         <!--mini cart-->
         <div class="mini_cart">
@@ -247,7 +246,7 @@
                 </div>
                 <div class="cart_item">
                     <div class="cart_img">
-                        <a href="#"><img src="~/assets/img/product/small-product1.png" alt=""></a>
+                        <a href="#"><img src="/assets/img/product/small-product1.png" alt=""></a>
                     </div>
                     <div class="cart_info">
                         <a href="#">Primis In Faucibus</a>
@@ -259,7 +258,7 @@
                 </div>
                 <div class="cart_item">
                     <div class="cart_img">
-                        <a href="#"><img src="~/assets/img/product/small-product2.png" alt=""></a>
+                        <a href="#"><img src="/assets/img/product/small-product2.png" alt=""></a>
                     </div>
                     <div class="cart_info">
                         <a href="#">Letraset Sheets</a>
@@ -305,7 +304,7 @@
     }
     @RenderBody()
     
-    @if (ViewContext.RouteData.Values["controller"].ToString() != "Account")
+    @if (ViewContext.RouteData.Values["controller"]?.ToString() != "Account")
     {
         <!-- footer section start -->
         <footer class="footer_section footer_bg">
@@ -315,7 +314,7 @@
                         <div class="main_footer d-flex justify-content-center align-items-center">
                             <div class="footer_left">
                                 <div class="footer_logo">
-                                    <a href="index.html"><img src="~/assets/img/logo/logo.png" alt=""></a>
+                                    <a href="index.html"><img src="/assets/img/logo/logo.png" alt=""></a>
                                 </div>
                                 <div class="footer_social">
                                     <ul class="d-flex justify-content-center">
@@ -340,24 +339,24 @@
 
     <!-- Js 
     ========================= -->
-    <script src="assets/js/vendor/jquery-3.4.1.min.js"></script>
-    <script src="assets/js/vendor/popper.js"></script>
-    <script src="assets/js/vendor/bootstrap.min.js"></script>
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/slick.min.js"></script>
-    <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/jquery.scrollup.min.js"></script>
-    <script src="assets/js/images-loaded.min.js"></script>
-    <script src="assets/js/jquery.nice-select.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/mailchimp-ajax.js"></script>
-    <script src="assets/js/jquery.counterup.min.js"></script>
-    <script src="assets/js/jquery-waypoints.js"></script>
-    <script src="assets/js/jquery-ui.min.js"></script>
-    <script src="assets/js/ajax-mail.js"></script>
+    <script src="/assets/js/vendor/jquery-3.4.1.min.js"></script>
+    <script src="/assets/js/vendor/popper.js"></script>
+    <script src="/assets/js/vendor/bootstrap.min.js"></script>
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <script src="/assets/js/slick.min.js"></script>
+    <script src="/assets/js/wow.min.js"></script>
+    <script src="/assets/js/jquery.scrollup.min.js"></script>
+    <script src="/assets/js/images-loaded.min.js"></script>
+    <script src="/assets/js/jquery.nice-select.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/mailchimp-ajax.js"></script>
+    <script src="/assets/js/jquery.counterup.min.js"></script>
+    <script src="/assets/js/jquery-waypoints.js"></script>
+    <script src="/assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/ajax-mail.js"></script>
 
     <!-- Main JS -->
-    <script src="assets/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
 </body>
 
 </html>

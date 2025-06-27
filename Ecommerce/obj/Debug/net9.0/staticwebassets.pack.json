@@ -5,8 +5,8 @@
       "PackagePath": "staticwebassets/Ecommerce.vk98e4b0qv.bundle.scp.css"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/about.html",
-      "PackagePath": "staticwebassets/about.html"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/about.html.bak",
+      "PackagePath": "staticwebassets/about.html.bak"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/about.html:Zone.Identifier",
@@ -87,6 +87,10 @@
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/css/style.css",
       "PackagePath": "staticwebassets/assets/css/style.css"
+    },
+    {
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/css/style.css.map",
+      "PackagePath": "staticwebassets/assets/css/style.css.map"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/assets/css/style.css:Zone.Identifier",
@@ -1373,24 +1377,24 @@
       "PackagePath": "staticwebassets/assets/scss/style.scss:Zone.Identifier"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/blog-details.html",
-      "PackagePath": "staticwebassets/blog-details.html"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/blog-details.html.bak",
+      "PackagePath": "staticwebassets/blog-details.html.bak"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/blog-details.html:Zone.Identifier",
       "PackagePath": "staticwebassets/blog-details.html:Zone.Identifier"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/blog.html",
-      "PackagePath": "staticwebassets/blog.html"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/blog.html.bak",
+      "PackagePath": "staticwebassets/blog.html.bak"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/blog.html:Zone.Identifier",
       "PackagePath": "staticwebassets/blog.html:Zone.Identifier"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/contact.html",
-      "PackagePath": "staticwebassets/contact.html"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/contact.html.bak",
+      "PackagePath": "staticwebassets/contact.html.bak"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/contact.html:Zone.Identifier",
@@ -1409,16 +1413,16 @@
       "PackagePath": "staticwebassets/images/banners/ea2363b4-7e0c-4d18-aec3-2db5f005ee6e.png"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/index-2.html",
-      "PackagePath": "staticwebassets/index-2.html"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/index-2.html.bak",
+      "PackagePath": "staticwebassets/index-2.html.bak"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/index-2.html:Zone.Identifier",
       "PackagePath": "staticwebassets/index-2.html:Zone.Identifier"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/index.html",
-      "PackagePath": "staticwebassets/index.html"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/index.html.bak",
+      "PackagePath": "staticwebassets/index.html.bak"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/index.html:Zone.Identifier",
@@ -1665,32 +1669,32 @@
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.slim.min.map"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/shop-collection.html",
-      "PackagePath": "staticwebassets/shop-collection.html"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/shop-collection.html.bak",
+      "PackagePath": "staticwebassets/shop-collection.html.bak"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/shop-collection.html:Zone.Identifier",
       "PackagePath": "staticwebassets/shop-collection.html:Zone.Identifier"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/shop-fullwidth.html",
-      "PackagePath": "staticwebassets/shop-fullwidth.html"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/shop-fullwidth.html.bak",
+      "PackagePath": "staticwebassets/shop-fullwidth.html.bak"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/shop-fullwidth.html:Zone.Identifier",
       "PackagePath": "staticwebassets/shop-fullwidth.html:Zone.Identifier"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/shop-left-sidebar.html",
-      "PackagePath": "staticwebassets/shop-left-sidebar.html"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/shop-left-sidebar.html.bak",
+      "PackagePath": "staticwebassets/shop-left-sidebar.html.bak"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/shop-left-sidebar.html:Zone.Identifier",
       "PackagePath": "staticwebassets/shop-left-sidebar.html:Zone.Identifier"
     },
     {
-      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/single-product.html",
-      "PackagePath": "staticwebassets/single-product.html"
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/single-product.html.bak",
+      "PackagePath": "staticwebassets/single-product.html.bak"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/single-product.html:Zone.Identifier",

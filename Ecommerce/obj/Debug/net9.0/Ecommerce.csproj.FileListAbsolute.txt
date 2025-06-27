@@ -1079,7 +1079,6 @@ C:/projects/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/cejow8otyh-9k
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/scopedcss/bundle/Ecommerce.styles.css
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/scopedcss/projectbundle/Ecommerce.bundle.scp.css
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/29k6mxk41k-1duz76nev0.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/ikfzgpcomb-15iykim2tb.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/ffct9l5f4m-pll2rsur6z.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/9b1fql13px-e8pv2hw18d.gz
@@ -1116,12 +1115,7 @@ C:/projects/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/cejow8otyh-9k
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/kho7o8dyju-tyqo0iik0f.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/esv0bfqhf0-x587p27b7j.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/d7gofem0j8-dpbsi2bzec.gz
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/eardrnl0xj-ufzfecc0mc.gz
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/d153exdlcp-nabq7yiyg5.gz
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/paft1zws66-jxyxr4ttg8.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/20orpprlfe-61n19gt1b8.gz
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/13q4tr5r35-9e58jc7g6i.gz
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/zkttbzczs0-uz21yis4ae.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/s55j8g5w5i-bqjiyaj88i.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/axn734ukif-c2jlpeoesf.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/xq2ywd9lcv-erw9l3u2r3.gz
@@ -1181,10 +1175,6 @@ C:/projects/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/cejow8otyh-9k
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/sllw3r2wa4-muycvpuwrr.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/zhdg9jqk81-87fc7y1x7t.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/1zohiiaxg0-mlv21k5csn.gz
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/jqnpacvo7s-lzd1r2w46h.gz
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/3r2ec359c4-5wjslzynjd.gz
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/cejow8otyh-9k6kr6a7w5.gz
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/cymiajmbcr-y1ts279u3q.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/w0limnbnwb-vk98e4b0qv.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/9vbb5g7n36-vk98e4b0qv.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/staticwebassets.build.json
@@ -1202,4 +1192,5 @@ C:/projects/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/cejow8otyh-9k
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/Ecommerce.pdb
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/Ecommerce.genruntimeconfig.cache
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/ref/Ecommerce.dll
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/9tbd4b3qkg-fl4vitl5rg.gz
+/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/9tbd4b3qkg-7resm3p6q8.gz
+/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/2gh8h8p4w4-4srybinlry.gz
