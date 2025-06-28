@@ -1405,8 +1405,16 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/4caa479a-9c7e-4e8b-ad36-dba8f85195c8.png",
+      "PackagePath": "staticwebassets/images/banners/4caa479a-9c7e-4e8b-ad36-dba8f85195c8.png"
+    },
+    {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/88dbf03b-e11f-41b1-b27b-3ac9085a9a4e.jpg",
       "PackagePath": "staticwebassets/images/banners/88dbf03b-e11f-41b1-b27b-3ac9085a9a4e.jpg"
+    },
+    {
+      "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/bfb4858d-ec15-430a-91e6-4db02279175f.jpg",
+      "PackagePath": "staticwebassets/images/banners/bfb4858d-ec15-430a-91e6-4db02279175f.jpg"
     },
     {
       "Id": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/ea2363b4-7e0c-4d18-aec3-2db5f005ee6e.png",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YbKpXNjFZvIUh0BTni3FBHgahWWgooqWb//aIau+HsQ=",
+  "Hash": "ClJoLNaMGamNbO4sZH3GWoEyQE7brhnhRDqKn4uD+ek=",
   "Source": "Ecommerce",
   "BasePath": "_content/Ecommerce",
   "Mode": "Default",
@@ -9509,6 +9509,27 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
+      "Identity": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/4caa479a-9c7e-4e8b-ad36-dba8f85195c8.png",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "images/banners/4caa479a-9c7e-4e8b-ad36-dba8f85195c8#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xhfnlh8hkw",
+      "Integrity": "y3iBiDp7AhDJWjWh+fZlQFCKcNsro3kUMw9Nz5Fihyk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/banners/4caa479a-9c7e-4e8b-ad36-dba8f85195c8.png"
+    },
+    {
       "Identity": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/88dbf03b-e11f-41b1-b27b-3ac9085a9a4e.jpg",
       "SourceId": "Ecommerce",
       "SourceType": "Discovered",
@@ -9528,6 +9549,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/banners/88dbf03b-e11f-41b1-b27b-3ac9085a9a4e.jpg"
+    },
+    {
+      "Identity": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/bfb4858d-ec15-430a-91e6-4db02279175f.jpg",
+      "SourceId": "Ecommerce",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/",
+      "BasePath": "_content/Ecommerce",
+      "RelativePath": "images/banners/bfb4858d-ec15-430a-91e6-4db02279175f#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pn8xb21q5z",
+      "Integrity": "FW0pzbysM8Yw4lY8TT7v+q9cqCpoqJWwLa5OazPtwHY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/banners/bfb4858d-ec15-430a-91e6-4db02279175f.jpg"
     },
     {
       "Identity": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/ea2363b4-7e0c-4d18-aec3-2db5f005ee6e.png",
@@ -48785,6 +48827,88 @@
       ]
     },
     {
+      "Route": "images/banners/4caa479a-9c7e-4e8b-ad36-dba8f85195c8.png",
+      "AssetFile": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/4caa479a-9c7e-4e8b-ad36-dba8f85195c8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3iBiDp7AhDJWjWh+fZlQFCKcNsro3kUMw9Nz5Fihyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 01:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3iBiDp7AhDJWjWh+fZlQFCKcNsro3kUMw9Nz5Fihyk="
+        }
+      ]
+    },
+    {
+      "Route": "images/banners/4caa479a-9c7e-4e8b-ad36-dba8f85195c8.xhfnlh8hkw.png",
+      "AssetFile": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/4caa479a-9c7e-4e8b-ad36-dba8f85195c8.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "138840"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"y3iBiDp7AhDJWjWh+fZlQFCKcNsro3kUMw9Nz5Fihyk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 01:34:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xhfnlh8hkw"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banners/4caa479a-9c7e-4e8b-ad36-dba8f85195c8.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-y3iBiDp7AhDJWjWh+fZlQFCKcNsro3kUMw9Nz5Fihyk="
+        }
+      ]
+    },
+    {
       "Route": "images/banners/88dbf03b-e11f-41b1-b27b-3ac9085a9a4e.jpg",
       "AssetFile": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/88dbf03b-e11f-41b1-b27b-3ac9085a9a4e.jpg",
       "Selectors": [],
@@ -48859,6 +48983,88 @@
         {
           "Name": "label",
           "Value": "images/banners/88dbf03b-e11f-41b1-b27b-3ac9085a9a4e.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FW0pzbysM8Yw4lY8TT7v+q9cqCpoqJWwLa5OazPtwHY="
+        }
+      ]
+    },
+    {
+      "Route": "images/banners/bfb4858d-ec15-430a-91e6-4db02279175f.jpg",
+      "AssetFile": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/bfb4858d-ec15-430a-91e6-4db02279175f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FW0pzbysM8Yw4lY8TT7v+q9cqCpoqJWwLa5OazPtwHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 01:34:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FW0pzbysM8Yw4lY8TT7v+q9cqCpoqJWwLa5OazPtwHY="
+        }
+      ]
+    },
+    {
+      "Route": "images/banners/bfb4858d-ec15-430a-91e6-4db02279175f.pn8xb21q5z.jpg",
+      "AssetFile": "/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/wwwroot/images/banners/bfb4858d-ec15-430a-91e6-4db02279175f.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "18961"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FW0pzbysM8Yw4lY8TT7v+q9cqCpoqJWwLa5OazPtwHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 28 Jun 2025 01:34:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pn8xb21q5z"
+        },
+        {
+          "Name": "label",
+          "Value": "images/banners/bfb4858d-ec15-430a-91e6-4db02279175f.jpg"
         },
         {
           "Name": "integrity",

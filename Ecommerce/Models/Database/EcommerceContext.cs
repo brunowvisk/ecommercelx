@@ -51,6 +51,16 @@ public partial class EcommerceContext : DbContext
             entity.Property(e => e.Type).HasMaxLength(20);
         });
 
+        modelBuilder.Entity<User>(entity =>
+        {
+            entity.Property(e => e.Id).HasColumnName("ID");
+            entity.Property(e => e.Email).HasMaxLength(100);
+            entity.Property(e => e.FullName).HasMaxLength(100);
+            entity.Property(e => e.Password).HasMaxLength(256); // Increased for hashed passwords
+            entity.Property(e => e.IsAdmin).HasDefaultValue(false);
+            entity.Property(e => e.RegisterDate).HasDefaultValueSql("CURRENT_TIMESTAMP");
+        });
+
         OnModelCreatingPartial(modelBuilder);
     }
 

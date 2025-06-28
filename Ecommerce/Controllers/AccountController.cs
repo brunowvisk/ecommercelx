@@ -1,5 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Ecommerce.Models.Database;
+using System.Security.Cryptography;
+using System.Text;
+using System.ComponentModel.DataAnnotations;
 
 namespace Ecommerce.Controllers
 {
@@ -10,6 +13,21 @@ namespace Ecommerce.Controllers
         public AccountController(EcommerceContext context)
         {
             _context = context;
+        }
+
+        // Helper method to hash passwords
+        private string HashPassword(string password)
+        {
+            using (SHA256 sha256Hash = SHA256.Create())
+            {
+                byte[] bytes = sha256Hash.ComputeHash(Encoding.UTF8.GetBytes(password));
+                StringBuilder builder = new StringBuilder();
+                for (int i = 0; i < bytes.Length; i++)
+                {
+                    builder.Append(bytes[i].ToString("x2"));
+                }
+                return builder.ToString();
+            }
         }
 
         // GET: Account/Login
@@ -29,7 +47,9 @@ namespace Ecommerce.Controllers
                 return View();
             }
 
-            var user = _context.Users.FirstOrDefault(u => u.Email == email && u.Password == password);
+            // Hash the input password to compare with stored hash
+            string hashedPassword = HashPassword(password);
+            var user = _context.Users.FirstOrDefault(u => u.Email == email && u.Password == hashedPassword);
             
             if (user != null)
             {
@@ -45,7 +65,7 @@ namespace Ecommerce.Controllers
                 }
                 else
                 {
-                    return RedirectToAction("MyAccount");
+                    return RedirectToAction("Index", "Home");
                 }
             }
             else
@@ -84,10 +104,17 @@ namespace Ecommerce.Controllers
         // POST: Account/Register
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(User user)
+        public async Task<IActionResult> Register(User user, string confirmPassword)
         {
             if (ModelState.IsValid)
             {
+                // Check if passwords match
+                if (user.Password != confirmPassword)
+                {
+                    ViewBag.ErrorMessage = "Passwords do not match.";
+                    return View(user);
+                }
+
                 // Check if email already exists
                 var existingUser = _context.Users.FirstOrDefault(u => u.Email == user.Email);
                 if (existingUser != null)
@@ -96,6 +123,8 @@ namespace Ecommerce.Controllers
                     return View(user);
                 }
 
+                // Hash the password before saving
+                user.Password = HashPassword(user.Password);
                 user.RegisterDate = DateTime.Now;
                 user.IsAdmin = false; // New users are not admin by default
                 

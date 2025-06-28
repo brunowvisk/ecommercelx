@@ -41,8 +41,15 @@
                         </div>
                         <div class="mb-3">
                             <label asp-for="Password" class="form-label">Password</label>
-                            <input asp-for="Password" class="form-control" placeholder="Enter your password" required>
+                            <input asp-for="Password" type="password" class="form-control" placeholder="Enter your password" required>
                             <span asp-validation-for="Password" class="text-danger small"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="confirmPassword" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm your password" required>
+                            <div class="invalid-feedback">
+                                Passwords do not match.
+                            </div>
                         </div>
                         <div class="d-grid">
                             <button type="submit" class="btn btn-success btn-lg">Create Account</button>

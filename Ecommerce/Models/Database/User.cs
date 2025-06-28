@@ -19,8 +19,8 @@ namespace Ecommerce.Models.Database
         public string FullName { get; set; } = string.Empty;
 
         [Required]
-        [StringLength(50)]
-        [Column(TypeName = "nvarchar(50)")]
+        [StringLength(256)]
+        [Column(TypeName = "nvarchar(256)")]
         public string Password { get; set; } = string.Empty;
 
         [Column(TypeName = "bit")]
