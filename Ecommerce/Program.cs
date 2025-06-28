@@ -46,6 +46,14 @@ if (!app.Environment.IsDevelopment())
 }
 app.UseStaticFiles();
 
+// Configure additional static file directories
+app.UseStaticFiles(new StaticFileOptions
+{
+    FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(
+        Path.Combine(Directory.GetCurrentDirectory(), "Content")),
+    RequestPath = "/content"
+});
+
 app.UseRouting();
 
 app.UseSession();

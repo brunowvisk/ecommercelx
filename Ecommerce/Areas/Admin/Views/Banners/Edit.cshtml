@@ -29,7 +29,7 @@
                 <input type="file" name="ImageFile" asp-for="ImageName" class="form-control" />
                 @if (!string.IsNullOrEmpty(Model.ImageName))
                 {
-                    <img class="img-thumbnail" src="~/images/banners/@Model.ImageName" style="max-width:200px" />
+                    <img class="img-thumbnail" src="~/content/uploads/banners/@Model.ImageName" style="max-width:200px" />
                 }
                 <span asp-validation-for="ImageName" class="text-danger"></span>
             </div>

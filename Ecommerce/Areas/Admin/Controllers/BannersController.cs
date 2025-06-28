@@ -61,7 +61,7 @@ namespace Ecommerce.Areas.Admin.Controllers
                 if (ImageFile != null)
                 {
                     banner.ImageName = Guid.NewGuid().ToString() + System.IO.Path.GetExtension(ImageFile.FileName);
-                    string bannerFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "banners");
+                    string bannerFolder = Path.Combine(Directory.GetCurrentDirectory(), "Content", "uploads", "banners");
                     
                     // Ensure directory exists
                     if (!Directory.Exists(bannerFolder))
@@ -116,7 +116,7 @@ namespace Ecommerce.Areas.Admin.Controllers
                 {
                     if (ImageFile != null)
                     {
-                        string bannerFolder = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "banners");
+                        string bannerFolder = Path.Combine(Directory.GetCurrentDirectory(), "Content", "uploads", "banners");
                         
                         // Delete old image if exists
                         if (!string.IsNullOrEmpty(banner.ImageName))
