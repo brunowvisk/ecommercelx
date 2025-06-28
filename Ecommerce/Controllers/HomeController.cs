@@ -2,9 +2,11 @@ using System.Diagnostics;
 using Ecommerce.Models;
 using Ecommerce.Models.Database;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Ecommerce.Controllers
 {
+    [Authorize]
     public class HomeController(ILogger<HomeController> logger, EcommerceContext context) : Controller
     {
         private readonly ILogger<HomeController> _logger = logger;

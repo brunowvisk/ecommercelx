@@ -3,6 +3,9 @@ using Ecommerce.Models.Database;
 using System.Security.Cryptography;
 using System.Text;
 using System.ComponentModel.DataAnnotations;
+using Microsoft.AspNetCore.Authentication;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Ecommerce.Controllers
 {
@@ -39,7 +42,7 @@ namespace Ecommerce.Controllers
         // POST: Account/Login
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Login(string email, string password)
+        public async Task<IActionResult> Login(string email, string password)
         {
             if (string.IsNullOrEmpty(email) || string.IsNullOrEmpty(password))
             {
@@ -53,11 +56,29 @@ namespace Ecommerce.Controllers
             
             if (user != null)
             {
-                // Store user info in session (simple implementation)
+                // Store user info in session
                 HttpContext.Session.SetString("UserId", user.Id.ToString());
                 HttpContext.Session.SetString("UserEmail", user.Email);
                 HttpContext.Session.SetString("UserName", user.FullName);
                 HttpContext.Session.SetString("IsAdmin", user.IsAdmin.ToString());
+
+                // Create claims for authentication
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
+                    new Claim(ClaimTypes.Email, user.Email),
+                    new Claim(ClaimTypes.Name, user.FullName),
+                    new Claim("IsAdmin", user.IsAdmin.ToString())
+                };
+
+                var claimsIdentity = new ClaimsIdentity(claims, "CookieAuth");
+                var authProperties = new AuthenticationProperties
+                {
+                    IsPersistent = true,
+                    ExpiresUtc = DateTimeOffset.UtcNow.AddMinutes(30)
+                };
+
+                await HttpContext.SignInAsync("CookieAuth", new ClaimsPrincipal(claimsIdentity), authProperties);
 
                 if (user.IsAdmin)
                 {
@@ -76,6 +97,7 @@ namespace Ecommerce.Controllers
         }
 
         // GET: Account/MyAccount
+        [Authorize]
         public IActionResult MyAccount()
         {
             var userId = HttpContext.Session.GetString("UserId");
@@ -139,10 +161,11 @@ namespace Ecommerce.Controllers
         }
 
         // GET: Account/Logout
-        public IActionResult Logout()
+        public async Task<IActionResult> Logout()
         {
             HttpContext.Session.Clear();
-            return RedirectToAction("Index", "Home");
+            await HttpContext.SignOutAsync("CookieAuth");
+            return RedirectToAction("Login", "Account");
         }
     }
 }

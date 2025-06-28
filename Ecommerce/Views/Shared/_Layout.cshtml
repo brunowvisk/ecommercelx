@@ -207,7 +207,14 @@
                                     </li>
                                     <li class="account_link_menu">
                                         <a href="#">
-                                            <i class="bi bi-person-circle" style="font-size: 18px; color: #333;"></i>
+                                            @if (Context.Session.GetString("UserId") != null)
+                                            {
+                                                <i class="bi bi-person-circle" style="font-size: 18px; color: #AB6E35;"></i>
+                                            }
+                                            else
+                                            {
+                                                <i class="bi bi-person-circle" style="font-size: 18px; color: #333;"></i>
+                                            }
                                         </a>
                                         <ul class="dropdown_account_link">
                                             @if (Context.Session.GetString("UserId") != null)
