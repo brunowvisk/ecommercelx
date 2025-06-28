@@ -6,12 +6,12 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Ecommerce.Controllers
 {
-    [Authorize]
     public class HomeController(ILogger<HomeController> logger, EcommerceContext context) : Controller
     {
         private readonly ILogger<HomeController> _logger = logger;
         private readonly EcommerceContext _context = context;
 
+        [Authorize]
         public IActionResult Index()
         {
             var banners = _context.Banners.ToList();
@@ -19,31 +19,37 @@ namespace Ecommerce.Controllers
             return View();
         }
 
+        [Authorize]
         public IActionResult Privacy()
         {
             return View();
         }
 
+        [Authorize]
         public IActionResult About()
         {
             return View();
         }
 
+        [Authorize]
         public IActionResult Shop()
         {
             return View();
         }
 
+        [Authorize]
         public IActionResult Product()
         {
             return View();
         }
 
+        [Authorize]
         public IActionResult Blog()
         {
             return View();
         }
 
+        [Authorize]
         public IActionResult BlogDetails()
         {
             return View();

@@ -195,16 +195,19 @@
                         <div class="header__ridebar d-flex align-items-center">
                             <div class="header_account">
                                 <ul class="d-flex">
-                                    <li class="header_search_btn">
-                                        <a href="#">
-                                            <i class="bi bi-search" style="font-size: 18px; color: #333;"></i>
-                                        </a>
-                                    </li>
-                                    <li class="shopping_cart">
-                                        <a href="#">
-                                            <i class="bi bi-cart" style="font-size: 18px; color: #333;"></i>
-                                        </a>
-                                    </li>
+                                    @if (Context.Session.GetString("UserId") != null)
+                                    {
+                                        <li class="header_search_btn">
+                                            <a href="#">
+                                                <i class="bi bi-search" style="font-size: 18px; color: #333;"></i>
+                                            </a>
+                                        </li>
+                                        <li class="shopping_cart">
+                                            <a href="#">
+                                                <i class="bi bi-cart" style="font-size: 18px; color: #333;"></i>
+                                            </a>
+                                        </li>
+                                    }
                                     <li class="account_link_menu">
                                         <a href="#">
                                             @if (Context.Session.GetString("UserId") != null)
