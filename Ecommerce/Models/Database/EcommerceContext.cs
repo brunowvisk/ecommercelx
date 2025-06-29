@@ -34,7 +34,7 @@ public partial class EcommerceContext : DbContext
         modelBuilder.Entity<Banner>(entity =>
         {
             entity.Property(e => e.Id)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("ID");
             entity.Property(e => e.ImageName).HasMaxLength(50);
             entity.Property(e => e.Link).HasMaxLength(100);

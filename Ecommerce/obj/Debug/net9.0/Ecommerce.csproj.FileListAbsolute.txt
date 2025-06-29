@@ -1079,8 +1079,6 @@ C:/projects/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/cejow8otyh-9k
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/scopedcss/Views/Shared/_Layout.cshtml.rz.scp.css
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/scopedcss/bundle/Ecommerce.styles.css
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/scopedcss/projectbundle/Ecommerce.bundle.scp.css
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/w0limnbnwb-vk98e4b0qv.gz
-/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/9vbb5g7n36-vk98e4b0qv.gz
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/staticwebassets.build.json
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/staticwebassets.development.json
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -1096,3 +1094,5 @@ C:/projects/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/cejow8otyh-9k
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/Ecommerce.pdb
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/Ecommerce.genruntimeconfig.cache
 /home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/ref/Ecommerce.dll
+/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/w0limnbnwb-3pyhepx0bb.gz
+/home/brunowvisk/projetos/dotnet/ecommerce/Ecommerce/obj/Debug/net9.0/compressed/9vbb5g7n36-3pyhepx0bb.gz

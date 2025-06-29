@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
 <h1>Details</h1>
@@ -30,7 +31,7 @@
             @if (!string.IsNullOrEmpty(Model.ImageName))
             {
                 <br />
-                <img class="img-thumbnail" src="~/content/uploads/banners/@Model.ImageName" style="max-width:300px" />
+                <img class="img-thumbnail" src="~/content/images/banners/@Model.ImageName" style="max-width:300px" />
             }
         </dd>
         <dt class = "col-sm-2">
@@ -54,6 +55,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id" class="btn btn-primary">Edit</a>
+    <a asp-action="Index" class="btn btn-secondary">Back to List</a>
 </div>

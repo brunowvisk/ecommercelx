@@ -1,7 +1,24 @@
-﻿
-@{
-    ViewData["Title"] = "Index";
+﻿@{
+    ViewData["Title"] = "Admin Dashboard";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Index</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="welcome-section p-5 rounded mb-4">
+                <h1 class="display-4 text-dark">Welcome to Admin Dashboard</h1>
+                <p class="lead text-muted">Manage your website banners and menus easily and efficiently.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .welcome-section {
+        background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+        border: 1px solid #dee2e6;
+        text-align: center;
+    }
+</style>
 

@@ -54,14 +54,14 @@ namespace Ecommerce.Areas.Admin.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Title,SubTitle,ImageName,Priority,Link,Position")] Banner banner, IFormFile ImageFile)
+        public async Task<IActionResult> Create([Bind("Title,SubTitle,ImageName,Priority,Link,Position")] Banner banner, IFormFile ImageFile)
         {
             if (ModelState.IsValid)
             {
                 if (ImageFile != null)
                 {
                     banner.ImageName = Guid.NewGuid().ToString() + System.IO.Path.GetExtension(ImageFile.FileName);
-                    string bannerFolder = Path.Combine(Directory.GetCurrentDirectory(), "Content", "uploads", "banners");
+                    string bannerFolder = Path.Combine(Directory.GetCurrentDirectory(), "Content", "images", "banners");
                     
                     // Ensure directory exists
                     if (!Directory.Exists(bannerFolder))
@@ -116,7 +116,7 @@ namespace Ecommerce.Areas.Admin.Controllers
                 {
                     if (ImageFile != null)
                     {
-                        string bannerFolder = Path.Combine(Directory.GetCurrentDirectory(), "Content", "uploads", "banners");
+                        string bannerFolder = Path.Combine(Directory.GetCurrentDirectory(), "Content", "images", "banners");
                         
                         // Delete old image if exists
                         if (!string.IsNullOrEmpty(banner.ImageName))
@@ -187,7 +187,7 @@ namespace Ecommerce.Areas.Admin.Controllers
             {
                 if (!string.IsNullOrEmpty(banner.ImageName))
                 {
-                    string org_fn = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "images", "banners", banner.ImageName);
+                    string org_fn = Path.Combine(Directory.GetCurrentDirectory(), "Content", "images", "banners", banner.ImageName);
                     if (System.IO.File.Exists(org_fn))
                     {
                         System.IO.File.Delete(org_fn);
